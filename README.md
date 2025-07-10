@@ -11,28 +11,6 @@ This is a basic console-based ATM (Automated Teller Machine) simulation program 
 * **Cash Deposit:** Deposit a specified amount into the account.
 * **Continuous Operation:** Allows multiple transactions until the user chooses to exit.
 
-## How to Compile and Run
-
-This project can be compiled using a standard C compiler like GCC.
-
-1.  **Save the Code:** Save the provided C code into a file named `atm.c` (or any other `.c` extension).
-
-2.  **Compile using GCC:** Open your terminal or command prompt and navigate to the directory where you saved `atm.c`. Then, run the following command:
-
-    ```bash
-    gcc atm.c -o atm
-    ```
-    * `gcc`: The GNU C Compiler.
-    * `atm.c`: Your source code file.
-    * `-o atm`: Specifies the output executable file name as `atm` (or `atm.exe` on Windows).
-
-3.  **Run the Executable:** After successful compilation, run the program using:
-
-    ```bash
-    ./atm
-    ```
-    (On Windows, you might just type `atm` or `atm.exe`).
-
 ## How to Use
 
 Once the program is running, follow the on-screen prompts:
@@ -53,4 +31,4 @@ Once the program is running, follow the on-screen prompts:
     * Type `5` and press Enter to perform another transaction.
     * Type any other number and press Enter to exit the program.
 
-## Example Session
+
